@@ -1,7 +1,7 @@
 <?php
 // 	 	  header("Content-Type: text/php;");
-include('externo.php');
-$data = externo::datos();
+// include('externo.php');
+// $data = externo::datos();
 
 ?>
 
@@ -18,21 +18,22 @@ $data = externo::datos();
 
 </head>
 <body>
-<div>
+<div class="cont">
+	<button class="btn-primary" id="btn-activar">Mostrar Data</button>
 	<table class="table table-hover table-responsive">
   				<thead>
   					<tr>
   						<th>First Name</th>
   						<th>Last Name</th>
-  						<th>“Email</th>
+  						<th>Email</th>
   					</tr>
   				</thead>
-  				<tbody>
-  					<tr>
+  				<tbody class="cont-data">
+  				<!-- 	<tr>
   						<td></td>
   						<td></td>
   						<td></td>
-  					</tr>
+  					</tr> -->
   				</tbody>
 		</table>
 

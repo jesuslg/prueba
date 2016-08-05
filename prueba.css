@@ -1,3 +1,14 @@
-html{
-	background-color: #558faa;
+html, body{
+	background-color: #558faa !important;
+}
+
+.cont{
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+table{
+	background-color: #fff !important;
 }
